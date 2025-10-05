@@ -1,0 +1,41 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh - 70px);
+    padding: 70px 24px;
+    background: radial-gradient(
+        #417ff215, #0d121d, #0d121d
+    );
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 16px;
+}
+
+.name-style {
+    background: linear-gradient(135deg, #417ff2 0, #2dd5cf 100% 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 1px;
+}
+
+.hero-cta {
+    border: 1px solid var(--acento);
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: var(--acento);
+    color: var(--main-text-color);
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s;
+}
+
+.hero-cta:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 3px 20px #ffffff20;
+}

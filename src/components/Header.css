@@ -7,6 +7,8 @@
     position: fixed;
     width: 100%;
     z-index: 100;
+    background-color: #0d121d90;
+    backdrop-filter: blur(5px);
 }
 
 .header-container {
@@ -22,9 +24,8 @@
 .logo {
     font-size: 24px;
     font-weight: var(--font-weight-bold);
-    border: 2px solid var(--acento);
+    border-bottom: 1px solid var(--acento);
     padding: 4px 8px;
-    border-radius: 8px;
 }
 
 .main-nav ul {
