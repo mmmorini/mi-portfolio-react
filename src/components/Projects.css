@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 24px;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.projects-card {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 350px;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000;
+    border: 1px solid var(--main-color-light);
+}
+
+.projects-img {
+    position: relative;
+    height: 40%;
+    width: 100%;
+}
+
+.projects-info {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.projects-info h3 {
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.projects-subtitle {
+    margin: 0 20px;
+} 
+
+.projects-icons-tech {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.projects-icons-tech img {
+    width: 30px;
+    filter: grayscale(1);
+    transition: filter .2s;
+}
+
+.projects-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects-deploy, .projects-github {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid var(--acento);
+    color: var(--main-text-color);
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.projects-deploy {
+    background-color: var(--borde-suave);
+    width: 130%;
+    padding: 4px 0;
+}
+
+.projects-github {
+    background-color: var(--acento);
+    width: 180%;
+    padding: 5px 0;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    transition: filter .2s;
+}
+
+h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+
+.projects-card:hover .projects-deploy, .projects-card:hover .projects-github {
+    opacity: 1;
+}
+
+.projects-card:hover .projects-img img {
+    filter: brightness(.2);
+}
+
+.projects-card:hover .projects-info h3 {
+    background: linear-gradient(135deg, #417ff2 0, #2dd5cf 100% 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.projects-card:hover .projects-icons-tech img {
+    filter: grayscale(0);
+}
+
+@media (max-width: 1000px) {
+    .projects-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
