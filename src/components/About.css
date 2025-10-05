@@ -1,0 +1,80 @@
+.about-section {
+    display: flex;
+    height: 100vh;
+    margin: 0 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.about-section h3 {
+    font-size: 28px;
+}
+
+.about-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.about-perfil {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-descrip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    gap: 50px;
+}
+
+.html-span {
+    color: #E95627;
+}
+
+.css-span {
+    color: #1572B6;
+}
+
+.js-span {
+    color: #F0DB4F;
+}
+
+.rea-span {
+    color: #0F7B8F;
+}
+
+.about-tech {
+    display: flex;
+    gap: 20px;
+}
+
+.about-data img {
+    width: 300px;
+}
+
+.about-tech img, .about-tech svg {
+    width: 40px;
+}
+
+@media (max-width: 1024px) {
+    .about-data {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-section {
+        margin: 200px 50px 100px;
+    }
+}
