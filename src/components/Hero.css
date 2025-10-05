@@ -4,9 +4,9 @@
     justify-content: center;
     text-align: center;
     height: calc(100vh - 70px);
-    padding: 70px 24px;
+    padding: 70px 24px 0;
     background: radial-gradient(
-        #417ff215, #0d121d, #0d121d
+        var(--main-color-light), var(--main-color), var(--main-color)
     );
 }
 
@@ -26,6 +26,7 @@
 
 .hero-cta {
     border: 1px solid var(--acento);
+    margin: 25px 0;
     padding: 5px 20px;
     font-size: 15px;
     border-radius: 10px;
