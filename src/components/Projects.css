@@ -136,13 +136,51 @@ h2 {
     filter: grayscale(0);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
+    .projects-info h3 {
+        background: linear-gradient(135deg, #417ff2 0, #2dd5cf 100% 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .projects-img img {
+        filter: brightness(.2);
+    }
+
+    .projects-deploy, .projects-github {
+        opacity: 1;
+    }
+
+    .projects-icons-tech img {
+        filter: grayscale(0);
+    }
+
     .projects-content {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
+    .projects-info h3 {
+        background: linear-gradient(135deg, #417ff2 0, #2dd5cf 100% 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .projects-img img {
+        filter: brightness(.2);
+    }
+
+    .projects-deploy, .projects-github {
+        opacity: 1;
+    }
+
+    .projects-icons-tech img {
+        filter: grayscale(0);
+    }
+
     .projects-content {
         grid-template-columns: repeat(1, 1fr);
     }
