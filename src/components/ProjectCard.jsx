@@ -1,11 +1,15 @@
-function ProjectCard({ image, title, description, tech }) {
+function ProjectCard({ image, title, description, tech, deployUrl, githubUrl }) {
     return (
         <div className="projects-card">
             <div className="projects-img">
                 <img src={image} />
                 <div className="projects-buttons">
-                  <button className="projects-deploy">Deploy en vivo</button>
-                  <button className="projects-github">GitHub</button>
+                    <a href={deployUrl} target="_BLANK" rel="noopener noreferrer">
+                        <button className="projects-deploy">Deploy en vivo</button>
+                    </a>
+                    <a href={githubUrl} target="_BLANK" rel="noopener noreferrer">
+                        <button className="projects-github">GitHub</button>
+                    </a>
                 </div>
             </div>
             <div className="projects-info">
