@@ -5,8 +5,6 @@
 .projects-section {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    margin: 0 24px;
     align-items: center;
     justify-content: center;
     gap: 30px;
