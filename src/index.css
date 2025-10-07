@@ -8,9 +8,14 @@
     --acento: #3B82F6;
     --borde-suave: #374151;
     --shadow: #3b83f615;
+    --bg-card: #3b83f62c;
     /* tipografía */
     --font-weight-normal: 400;
     --font-weight-bold: 700;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,4 +24,13 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: var(--main-color);
     color: var(--main-text-color);
+}
+
+section {
+    padding: 100px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+    justify-content: center;
 }

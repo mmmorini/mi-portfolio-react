@@ -9,7 +9,7 @@ import gitIcon from "../assets/git.svg"
 
 function About() {
     return (
-        <section className="about-section">
+        <section id="about" className="about-section">
             <h3>Sobre mí</h3>
             <div className="about-data">
                 <div className="about-perfil">
@@ -17,7 +17,7 @@ function About() {
                 </div>
                 <div className="about-descrip">
                     <p className="about-paragraph">
-                        Hola, soy Mariano. <br /> Como desarrollador Front-End, me apasiona la intersección entre el diseño y la lógica para convertir ideas en experiencias web intuitivas y funcionales. <br /><br />
+                        Hola, soy Mariano. Tengo 22 años.<br /> Como desarrollador Front-End, me apasiona la intersección entre el diseño y la lógica para convertir ideas en experiencias web intuitivas y funcionales. <br /><br />
                         Actualmente, estoy consolidando mis habilidades en el ecosistema moderno con <span className="html-span">HTML</span>, <span className="css-span">CSS</span>, <span className="js-span">JavaScript</span>, y sumergiéndome en <span className="rea-span">React</span>. Estoy comprometido con el aprendizaje continuo para mi crecimiento profesional. <br /><br />Busco mi primera oportunidad laboral para aportar mi entusiasmo a un equipo dinámico y seguir creciendo como profesional.
                     </p>
                     <div className="about-tech">
