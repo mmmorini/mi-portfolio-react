@@ -1,6 +1,6 @@
 import deployGastos from "../assets/deploy-gestor-gastos.png"
 import buscadorPeli from "../assets/buscador-peli.png"
-import proximamente from "../assets/proximamente.png"
+import portfolio from "../assets/portfolio.png"
 
 import htmlIcon from "../assets/html.svg"
 import cssIcon from "../assets/css.svg"
@@ -25,9 +25,9 @@ const projectsData = [
         deployUrl: 'https://searchappmov.netlify.app/'
     },
     {
-        image: proximamente,
-        title: 'Próximo proyecto con React',
-        description: 'Proyecto con React.',
+        image: portfolio,
+        title: 'Mi portfolio web',
+        description: 'Portfolio Web hecho con React.',
         tech: [htmlIcon, cssIcon, jsIcon, reactIcon],
         githubUrl: '',
         deployUrl: ''

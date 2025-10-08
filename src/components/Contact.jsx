@@ -21,7 +21,7 @@ function Contact() {
                             <label htmlFor="msg">Mensaje</label>
                             <textarea name='message' required id='msg' type="text" placeholder='Deje su mensaje' />
                         </div>
-                        <button prevendefault type='submit' className='submit-contact'>Enviar</button>
+                        <button type='submit' className='submit-contact'>Enviar</button>
                     </form>
                 </div>
                 <div className="contact-info-container">

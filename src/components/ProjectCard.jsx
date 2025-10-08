@@ -4,11 +4,11 @@ function ProjectCard({ image, title, description, tech, deployUrl, githubUrl }) 
             <div className="projects-img">
                 <img src={image} />
                 <div className="projects-buttons">
-                    <a href={deployUrl} target="_BLANK" rel="noopener noreferrer">
-                        <button className="projects-deploy">Deploy en vivo</button>
+                    <a href={deployUrl} className="projects-deploy" target="_BLANK" rel="noopener noreferrer">
+                        Deploy en vivo
                     </a>
-                    <a href={githubUrl} target="_BLANK" rel="noopener noreferrer">
-                        <button className="projects-github">GitHub</button>
+                    <a href={githubUrl} className="projects-github" target="_BLANK" rel="noopener noreferrer">
+                        GitHub
                     </a>
                 </div>
             </div>

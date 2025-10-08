@@ -96,14 +96,14 @@ a {
 
 .projects-deploy {
     background-color: var(--borde-suave);
-    width: 130%;
-    padding: 4px 0;
+    width: 120%;
+    padding: 3px 0;
 }
 
 .projects-github {
     background-color: var(--acento);
-    width: 180%;
-    padding: 5px 0;
+    width: 150%;
+    padding: 4px 0;
 }
 
 
