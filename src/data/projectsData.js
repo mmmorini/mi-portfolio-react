@@ -29,8 +29,8 @@ const projectsData = [
         title: 'Mi portfolio web',
         description: 'Portfolio Web hecho con React.',
         tech: [htmlIcon, cssIcon, jsIcon, reactIcon],
-        githubUrl: '',
-        deployUrl: ''
+        githubUrl: 'https://github.com/mmmorini/mi-portfolio-react',
+        deployUrl: 'https://webpfolio.netlify.app/'
     }
 ];
 
