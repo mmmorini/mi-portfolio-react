@@ -14,7 +14,7 @@ const projectsData = [
         description: 'Aplicación simple para tomar nota de tus gastos diarios y mensuales.',
         tech: [htmlIcon, cssIcon, jsIcon],
         githubUrl: 'https://github.com/mmmorini/gestor-de-gastos',
-        deployUrl: 'https://spontaneous-griffin-672824.netlify.app/'
+        deployUrl: 'https://gastosg.netlify.app/'
     },
     {
         image: buscadorPeli,
