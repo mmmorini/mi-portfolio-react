@@ -1,6 +1,7 @@
 import deployGastos from "../assets/deploy-gestor-gastos.png"
 import buscadorPeli from "../assets/buscador-peli.png"
 import portfolio from "../assets/portfolio.png"
+import calculadoraVanilla from "../assets/calculadoraVanilla.png"
 
 import htmlIcon from "../assets/html.svg"
 import cssIcon from "../assets/css.svg"
@@ -31,6 +32,14 @@ const projectsData = [
         tech: [htmlIcon, cssIcon, jsIcon, reactIcon],
         githubUrl: 'https://github.com/mmmorini/mi-portfolio-react',
         deployUrl: 'https://webpfolio.netlify.app/'
+    },
+    {
+        image: calculadoraVanilla,
+        title: 'Calculadora vanilla',
+        description: 'Calculadora hecha con HTML, CSS y JS puro.',
+        tech: [htmlIcon, cssIcon, jsIcon],
+        githubUrl: 'https://github.com/mmmorini/calculadora-vanilla',
+        deployUrl: 'https://calculadoravanilla.netlify.app/'
     }
 ];
 
