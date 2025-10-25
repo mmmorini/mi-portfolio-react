@@ -2,6 +2,7 @@ import deployGastos from "../assets/deploy-gestor-gastos.png"
 import buscadorPeli from "../assets/buscador-peli.png"
 import portfolio from "../assets/portfolio.png"
 import calculadoraVanilla from "../assets/calculadoraVanilla.png"
+import generadorC from "../assets/generadorC.png"
 
 import htmlIcon from "../assets/html.svg"
 import cssIcon from "../assets/css.svg"
@@ -40,6 +41,14 @@ const projectsData = [
         tech: [htmlIcon, cssIcon, jsIcon],
         githubUrl: 'https://github.com/mmmorini/calculadora-vanilla',
         deployUrl: 'https://calculadoravanilla.netlify.app/'
+    },
+    {
+        image: generadorC,
+        title: 'Generador de contraseñas',
+        description: 'Generador de contraseñas hecho con HTML, CSS y JS puro.',
+        tech: [htmlIcon, cssIcon, jsIcon],
+        githubUrl: 'https://github.com/mmmorini/password-generator?tab=readme-ov-file',
+        deployUrl: 'https://generpass.netlify.app/'
     }
 ];
 
